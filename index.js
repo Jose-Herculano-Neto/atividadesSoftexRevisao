@@ -1,9 +1,9 @@
-import { contador } from "./exerciciosRevisao/cont.js";
-import { fibon } from "./exerciciosRevisao/fibonacci.js";
-import { mult } from "./exerciciosRevisao/mult.js";
-import { pares } from "./exerciciosRevisao/pares.js";
-import { soma } from "./exerciciosRevisao/soma.js";
-import { tresATrinta } from "./exerciciosRevisao/tresATrinta.js";
+import { contador } from "./exerciciosRevisaoLoops/cont.js";
+import { fibon } from "./exerciciosRevisaoLoops/fibonacci.js";
+import { mult } from "./exerciciosRevisaoLoops/mult.js";
+import { pares } from "./exerciciosRevisaoLoops/pares.js";
+import { soma } from "./exerciciosRevisaoLoops/soma.js";
+import { tresATrinta } from "./exerciciosRevisaoLoops/tresATrinta.js";
 
 
 contador();
