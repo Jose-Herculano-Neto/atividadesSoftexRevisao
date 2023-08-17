@@ -1,8 +1,8 @@
-
+import { prompt } from "../index.js";
 
 export function parImpar() {
   
-  let num1 = 1; //altere aqui o número para saber se ele é par ou ímpar
+  let num1 = prompt("Digite um número: "); 
 
   if (num1 % 2 == 0) {
     console.log("O número " + num1 + " é par");
