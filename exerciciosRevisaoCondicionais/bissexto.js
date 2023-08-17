@@ -2,10 +2,12 @@
 import { prompt } from "../index.js";
 
 export function bissexto(){
-    let ano = 365;
+    let ano = prompt("Digite a quantidade de dias do ano: ");
+    console.log(typeof Number(ano))
 
-    if(ano % 4 == 0 && ano % 100 != 0){
+    if(Number(ano) % 4 === 0 && Number(ano) % 100 != 0 || Number(ano) % 400 === 0){
         console.log("é bissexto")
+    }else{
+        console.log("não é bissexto")
     }
-
 }
