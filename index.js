@@ -1,3 +1,4 @@
+import { parImpar } from "./exerciciosRevisaoCondicionais/parImpar.js";
 import { positivoNegativo } from "./exerciciosRevisaoCondicionais/posNeg.js";
 import { contador } from "./exerciciosRevisaoLoops/cont.js";
 import { fibon } from "./exerciciosRevisaoLoops/fibonacci.js";
@@ -14,3 +15,4 @@ mult();
 fibon();
 tresATrinta();
 positivoNegativo();
+parImpar();
