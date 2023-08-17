@@ -7,3 +7,4 @@ export function mult(){
     }
     console.log(total);      
 }
+
