@@ -1,5 +1,6 @@
 import { bissexto } from "./exerciciosRevisaoCondicionais/bissexto.js";
 import { calculadora } from "./exerciciosRevisaoCondicionais/calculadora.js";
+import { palindromo } from "./exerciciosRevisaoCondicionais/palindromo.js";
 import { parImpar } from "./exerciciosRevisaoCondicionais/parImpar.js";
 import { positivoNegativo } from "./exerciciosRevisaoCondicionais/posNeg.js";
 import { contador } from "./exerciciosRevisaoLoops/cont.js";
@@ -20,4 +21,6 @@ export const prompt = Prompt()
 // positivoNegativo();
 // parImpar();
 // bissexto();
-calculadora();
+// calculadora();
+// palindromo()
+

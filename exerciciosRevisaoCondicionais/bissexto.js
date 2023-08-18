@@ -2,7 +2,7 @@
 import { prompt } from "../index.js";
 
 export function bissexto(){
-    let ano = prompt("Digite a quantidade de dias do ano: ");
+    let ano = prompt("Digite o ano: ");
     console.log(typeof Number(ano))
 
     if(Number(ano) % 4 === 0 && Number(ano) % 100 != 0 || Number(ano) % 400 === 0){
