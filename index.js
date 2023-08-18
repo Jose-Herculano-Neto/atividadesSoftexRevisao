@@ -1,4 +1,5 @@
 import { bissexto } from "./exerciciosRevisaoCondicionais/bissexto.js";
+import { calculadora } from "./exerciciosRevisaoCondicionais/calculadora.js";
 import { parImpar } from "./exerciciosRevisaoCondicionais/parImpar.js";
 import { positivoNegativo } from "./exerciciosRevisaoCondicionais/posNeg.js";
 import { contador } from "./exerciciosRevisaoLoops/cont.js";
@@ -16,6 +17,7 @@ export const prompt = Prompt()
 // mult();
 // fibon();
 // tresATrinta();
-//positivoNegativo();
+// positivoNegativo();
 // parImpar();
-bissexto();
+// bissexto();
+calculadora();
