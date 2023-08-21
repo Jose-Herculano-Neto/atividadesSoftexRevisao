@@ -1,3 +1,4 @@
+import { conveteGraus } from "./exerciciosRevisaoConceitosBasicos/converterGraus.js";
 import { fatorial } from "./exerciciosRevisaoConceitosBasicos/fatorial.js";
 import { maiorNumero } from "./exerciciosRevisaoConceitosBasicos/maiorNumero.js";
 import { bissexto } from "./exerciciosRevisaoCondicionais/bissexto.js";
@@ -23,10 +24,12 @@ export const prompt = Prompt()
 // positivoNegativo();
 // parImpar();
 // bissexto();
-// calculadora();
+//calculadora();
 // palindromo()
 
 //fatorial();
 
-maiorNumero();
+//maiorNumero();
+
+conveteGraus();
 
