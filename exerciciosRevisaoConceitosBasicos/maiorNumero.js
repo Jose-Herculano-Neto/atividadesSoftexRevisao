@@ -6,11 +6,11 @@ export function maiorNumero() {
   let num2 = prompt("Digite o segundo número: ");
   let num3 = prompt("Digite o terceiro número: ");
 
-  if (num1 > num2 && num1 > num3) {
-    console.log("O número " + num1 + " é o maior entre eles");
-  } else if (num2 > num1 && num2 > num3) {
-    console.log("O número " + num2 + " é o maior entre eles");
+  if (Number(num1) > Number(num2) && Number(num1) > Number(num3)) {
+    console.log("O número " + Number(num1) + " é o maior entre eles");
+  } else if (Number(num2) > Number(num1) && Number(num2 )> Number(num3)) {
+    console.log("O número " + Number(num2) + " é o maior entre eles");
   } else {
-    console.log("O número " + num3 + " é o maior entre eles");
+    console.log("O número " + Number(num3) + " é o maior entre eles");
   }
 }
