@@ -1,3 +1,4 @@
+import { fatorial } from "./exerciciosRevisaoConceitosBasicos/fatorial.js";
 import { bissexto } from "./exerciciosRevisaoCondicionais/bissexto.js";
 import { calculadora } from "./exerciciosRevisaoCondicionais/calculadora.js";
 import { palindromo } from "./exerciciosRevisaoCondicionais/palindromo.js";
@@ -23,4 +24,6 @@ export const prompt = Prompt()
 // bissexto();
 // calculadora();
 // palindromo()
+
+fatorial();
 
